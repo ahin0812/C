@@ -1,17 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int w, h;
-	double s;
-	
-	scanf("%d %d", &w, &h);
-	
-	s = 1.0*w*h/2;
-	
-	printf("%lf", s);
+	printf("%d\n", 10>5&&8<3);
+	printf("%d\n", 10>5||8<3);
+	printf("%d\n", !(10>8));
 	
 	return 0;
 }
-	
-	
-	
+ 
