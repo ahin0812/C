@@ -2,9 +2,12 @@
 int main()
 {
 	char str[15]="hi c3 coding";
-	for(int i=0;i<str[i]!='\0';++i)
+	int i = 0;
+	while(i<str[i])
 	{
 		printf("%c",str[i]);
+		++i;
+		
 	}
 	return 0; 
 }
