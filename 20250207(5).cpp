@@ -1,11 +1,14 @@
 #include<stdio.h>
 #include<conio.h>
+#include<windows.h>
 int main()
 {
-	char ch;
-	
-	ch=_getche();
-	printf("\nch=%d : %c",ch,ch);
-	putchar(ch);
+	int n=0;
+	while (1)
+	{
+		printf("%d%c",n,13);
+		n++;
+		Sleep(1000);
+	}
 	return 0;
 }
